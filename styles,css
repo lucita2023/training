@@ -1,0 +1,45 @@
+/* Container Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* 1. Header Container Styling */
+.simple-header {
+    background-color: #f8f8f8; /* Light gray background */
+    padding: 15px 25px;
+    border-bottom: 1px solid #ddd;
+
+    /* Flexbox for layout */
+    display: flex;
+    justify-content: space-between; /* Pushes brand left, menu right */
+    align-items: center; /* Vertically centers content */
+}
+
+/* 2. Brand Name Styling */
+.brand-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333; /* Dark text */
+    text-decoration: none; /* Remove underline */
+}
+
+/* 3. Navigation Styling */
+.simple-header nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Display links horizontally */
+    gap: 20px; /* Space between links */
+}
+
+.simple-header nav a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.simple-header nav a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
